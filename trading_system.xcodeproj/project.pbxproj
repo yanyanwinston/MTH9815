@@ -25,6 +25,31 @@
 /* Begin PBXFileReference section */
 		3A0791FC1FD21D970013DAA6 /* trading_system */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = trading_system; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A0791FF1FD21D970013DAA6 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		3A0792211FD344C10013DAA6 /* products.hpp */ = {isa = PBXFileReference; fileEncoding = 4; indentWidth = 2; lastKnownFileType = sourcecode.cpp.h; path = products.hpp; sourceTree = "<group>"; tabWidth = 2; };
+		3A0792221FD344C10013DAA6 /* inquiryservice.hpp */ = {isa = PBXFileReference; fileEncoding = 4; indentWidth = 2; lastKnownFileType = sourcecode.cpp.h; path = inquiryservice.hpp; sourceTree = "<group>"; tabWidth = 2; };
+		3A0792231FD344C10013DAA6 /* historicaldataservice.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = historicaldataservice.hpp; sourceTree = "<group>"; };
+		3A0792241FD344C10013DAA6 /* soa.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = soa.hpp; sourceTree = "<group>"; };
+		3A0792251FD344C10013DAA6 /* positionservice.hpp */ = {isa = PBXFileReference; fileEncoding = 4; indentWidth = 2; lastKnownFileType = sourcecode.cpp.h; path = positionservice.hpp; sourceTree = "<group>"; tabWidth = 2; };
+		3A0792261FD344C10013DAA6 /* pricingservice.hpp */ = {isa = PBXFileReference; fileEncoding = 4; indentWidth = 2; lastKnownFileType = sourcecode.cpp.h; path = pricingservice.hpp; sourceTree = "<group>"; tabWidth = 2; };
+		3A0792271FD344C10013DAA6 /* marketdataservice.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = marketdataservice.hpp; sourceTree = "<group>"; };
+		3A0792281FD344C10013DAA6 /* tradebookingservice.hpp */ = {isa = PBXFileReference; fileEncoding = 4; indentWidth = 2; lastKnownFileType = sourcecode.cpp.h; path = tradebookingservice.hpp; sourceTree = "<group>"; tabWidth = 2; };
+		3A0792291FD344C10013DAA6 /* executionservice.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = executionservice.hpp; sourceTree = "<group>"; };
+		3A07922A1FD344C10013DAA6 /* riskservice.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = riskservice.hpp; sourceTree = "<group>"; };
+		3A07922B1FD344C10013DAA6 /* streamingservice.hpp */ = {isa = PBXFileReference; fileEncoding = 4; indentWidth = 2; lastKnownFileType = sourcecode.cpp.h; path = streamingservice.hpp; sourceTree = "<group>"; tabWidth = 2; };
+		3A0792321FDDE84F0013DAA6 /* utils.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = utils.hpp; sourceTree = "<group>"; };
+		3A0792371FDDEB890013DAA6 /* config.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = config.hpp; sourceTree = "<group>"; };
+		3A0792391FDE017F0013DAA6 /* BondPositionService.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = BondPositionService.hpp; sourceTree = "<group>"; };
+		3A07923B1FDE017F0013DAA6 /* BondPricingService.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = BondPricingService.hpp; sourceTree = "<group>"; };
+		3A07923C1FDE01800013DAA6 /* BondTradeBookingService.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = BondTradeBookingService.hpp; sourceTree = "<group>"; };
+		3A0792471FDF39820013DAA6 /* BondInquiryService.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = BondInquiryService.hpp; sourceTree = "<group>"; };
+		3A0792491FDF550D0013DAA6 /* BondRiskService.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = BondRiskService.hpp; sourceTree = "<group>"; };
+		3A07924C1FDF78B30013DAA6 /* BondMarketDataService.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = BondMarketDataService.hpp; sourceTree = "<group>"; };
+		3A07924F1FE25BB50013DAA6 /* BondAlgoExecutionService.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = BondAlgoExecutionService.hpp; sourceTree = "<group>"; };
+		3A0792551FE2654B0013DAA6 /* BondStreamingService.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = BondStreamingService.hpp; sourceTree = "<group>"; };
+		3A0792581FE265630013DAA6 /* BondHistoricalDataService.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = BondHistoricalDataService.hpp; sourceTree = "<group>"; };
+		3A07925B1FE265860013DAA6 /* GUIService.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = GUIService.hpp; sourceTree = "<group>"; };
+		3A0792601FE3858C0013DAA6 /* BondExecutionService.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = BondExecutionService.hpp; sourceTree = "<group>"; };
+		3A0792631FE3BA550013DAA6 /* BondAlgoStreammingService.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = BondAlgoStreammingService.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,9 +82,50 @@
 		3A0791FE1FD21D970013DAA6 /* trading_system */ = {
 			isa = PBXGroup;
 			children = (
-				3A0791FF1FD21D970013DAA6 /* main.cpp */,
+				3A0792061FD21DA00013DAA6 /* src */,
 			);
 			path = trading_system;
+			sourceTree = "<group>";
+		};
+		3A0792061FD21DA00013DAA6 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				3A0792471FDF39820013DAA6 /* BondInquiryService.hpp */,
+				3A0792391FDE017F0013DAA6 /* BondPositionService.hpp */,
+				3A07923B1FDE017F0013DAA6 /* BondPricingService.hpp */,
+				3A07923C1FDE01800013DAA6 /* BondTradeBookingService.hpp */,
+				3A0792371FDDEB890013DAA6 /* config.hpp */,
+				3A0792321FDDE84F0013DAA6 /* utils.hpp */,
+				3A0791FF1FD21D970013DAA6 /* main.cpp */,
+				3A0792491FDF550D0013DAA6 /* BondRiskService.hpp */,
+				3A07924C1FDF78B30013DAA6 /* BondMarketDataService.hpp */,
+				3A07924F1FE25BB50013DAA6 /* BondAlgoExecutionService.hpp */,
+				3A0792551FE2654B0013DAA6 /* BondStreamingService.hpp */,
+				3A0792631FE3BA550013DAA6 /* BondAlgoStreammingService.hpp */,
+				3A0792581FE265630013DAA6 /* BondHistoricalDataService.hpp */,
+				3A07925B1FE265860013DAA6 /* GUIService.hpp */,
+				3A0792601FE3858C0013DAA6 /* BondExecutionService.hpp */,
+				3A0792071FD21DB20013DAA6 /* soa_platform */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		3A0792071FD21DB20013DAA6 /* soa_platform */ = {
+			isa = PBXGroup;
+			children = (
+				3A0792291FD344C10013DAA6 /* executionservice.hpp */,
+				3A0792231FD344C10013DAA6 /* historicaldataservice.hpp */,
+				3A0792221FD344C10013DAA6 /* inquiryservice.hpp */,
+				3A0792271FD344C10013DAA6 /* marketdataservice.hpp */,
+				3A0792251FD344C10013DAA6 /* positionservice.hpp */,
+				3A0792261FD344C10013DAA6 /* pricingservice.hpp */,
+				3A0792211FD344C10013DAA6 /* products.hpp */,
+				3A07922A1FD344C10013DAA6 /* riskservice.hpp */,
+				3A0792241FD344C10013DAA6 /* soa.hpp */,
+				3A07922B1FD344C10013DAA6 /* streamingservice.hpp */,
+				3A0792281FD344C10013DAA6 /* tradebookingservice.hpp */,
+			);
+			path = soa_platform;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,6 +299,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
+				HEADER_SEARCH_PATHS = /Users/yanyan/Downloads/boost_1_51_0;
+				LIBRARY_SEARCH_PATHS = /Users/yanyan/Downloads/boost_1_51_0/libs;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -241,6 +309,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
+				HEADER_SEARCH_PATHS = /Users/yanyan/Downloads/boost_1_51_0;
+				LIBRARY_SEARCH_PATHS = /Users/yanyan/Downloads/boost_1_51_0/libs;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
