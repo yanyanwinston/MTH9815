@@ -1,3 +1,3 @@
 # MTH9815
-trading system
-Yan Yan
+## Trading System
+## Created by Yan Yan
